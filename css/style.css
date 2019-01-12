@@ -1,0 +1,109 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Global, this can be put anywhere in the website */
+.container 
+{
+    width: 80%;
+    /* Setting the margin as auto will move contents to the middle */
+    margin: auto;
+    /* If something goes out of the div, it will be hidden  */
+    overflow: hidden;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+img 
+{
+    max-width: 400px;
+}
+
+ /* This will put the navbar in the middle of the page */
+.navbar ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar li 
+{
+    display: inline-block;
+}
+
+.navbar a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.navbar a.active 
+{
+    color: #6bf;
+}
+
+/* Skills Page */
+.skills-wrapper 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: auto;
+}
+
+.skills-wrapper h4 
+{
+    text-align: center
+}
+
+/* Work Experience Page */
+#workDuration
+{
+    float: right;
+    display: inline;
+}
+
+/* Educaton Page  */
+#transcript 
+{
+    color: #6bf;
+    text-decoration: none;
+}
+
+/* Education Page */
+
+.certificates-wrapper
+{
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2em;
+}
+
+#hideCertificateButton
+{
+    display: none;
+}
+
+button 
+{
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px; 
+    background-color: #6bf;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
